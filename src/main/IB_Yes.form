@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="Heading_Label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway ExtraBold" size="14" style="3"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e8" green="76" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Please choose the subjects you have taken in the International Baccalaureate Diploma:"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="0"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel7" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel8" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="Group6Name_ComboBox" pref="403" max="32767" attributes="0"/>
+                          <Component id="Group5Name_ComboBox" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Group4Name_ComboBox" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Group2Name_ComboBox" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Group1Name_ComboBox" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Group3Name_ComboBox" alignment="0" max="32767" attributes="0"/>
+                          <Component id="ExtrasName_ComboBox" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Group1Score_ComboBox" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="Group3Score_ComboBox" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="Group2Score_ComboBox" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="Group4Score_ComboBox" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="Group5Score_ComboBox" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="Group6Score_ComboBox" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="ExtrasScore_ComboBox" min="-2" pref="56" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="TotalIBScore_Label" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="TotalIBScore_TextField" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="CalculateIBScore_Button" min="-2" pref="102" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="SaveIB_Button" min="-2" pref="102" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Group1Name_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Group1Score_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Group2Name_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Group2Score_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Group3Name_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Group3Score_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Group4Name_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Group4Score_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Group5Name_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Group5Score_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Group6Name_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Group6Score_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ExtrasName_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ExtrasScore_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TotalIBScore_Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TotalIBScore_TextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="CalculateIBScore_Button" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="SaveIB_Button" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e8" green="76" red="2d" type="rgb"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jPanel2MouseDragged"/>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel2MousePressed"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="Exit" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="GoBack_Label" min="-2" max="-2" attributes="0"/>
+                      <Component id="AcademicsPage_Label" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="Exit" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="AcademicsPage_Label" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="GoBack_Label" min="-2" pref="31" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="Exit">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Verdana" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="X"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ExitMousePressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="AcademicsPage_Label">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Raleway ExtraBold" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/main/Images/icons8_Books_48px.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="IB Predicted Grades"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="GoBack_Label">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/main/Images/icons8_Long_Arrow_Left_48px_2.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="GoBack_LabelMousePressed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JComboBox" name="Group1Name_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="140">
+            <StringItem index="0" value="Language A:  Albanian Literature SL"/>
+            <StringItem index="1" value="Language A: Albanian Literature HL"/>
+            <StringItem index="2" value="Language A: Amharic Literature SL"/>
+            <StringItem index="3" value="Language A: Amhari Literature HL"/>
+            <StringItem index="4" value="Language A: Arabic Literature SL"/>
+            <StringItem index="5" value="Language A: Arabic Literature HL"/>
+            <StringItem index="6" value="Language A: Belarusian Literature SL"/>
+            <StringItem index="7" value="Language A: Belarusian Literature HL"/>
+            <StringItem index="8" value="Language A: Bengali Literature SL"/>
+            <StringItem index="9" value="Language A: Bengali Literature HL"/>
+            <StringItem index="10" value="Language A: Bosnian Literature SL"/>
+            <StringItem index="11" value="Language A: Bosnian Literature HL"/>
+            <StringItem index="12" value="Language A: Bulgarian Literature SL"/>
+            <StringItem index="13" value="Language A: Bulgarian Literature HL"/>
+            <StringItem index="14" value="Language A: Catalan Literature SL"/>
+            <StringItem index="15" value="Language A: Catalan Literature HL"/>
+            <StringItem index="16" value="Language A: Chinese (N) Literature SL"/>
+            <StringItem index="17" value="Language A: Chinese (N) Literature HL"/>
+            <StringItem index="18" value="Language A: Croatian Literature SL"/>
+            <StringItem index="19" value="Language A: Croatian Literature HL"/>
+            <StringItem index="20" value="Language A: Czech Literature SL"/>
+            <StringItem index="21" value="Language A: Czech Literature HL"/>
+            <StringItem index="22" value="Language A: Danish Literature SL"/>
+            <StringItem index="23" value="Language A: Danish Literature HL"/>
+            <StringItem index="24" value="Language A: Dutch Literature SL"/>
+            <StringItem index="25" value="Language A: Dutch Literature HL"/>
+            <StringItem index="26" value="Language A: English (N) Literature SL"/>
+            <StringItem index="27" value="Language A: English (N) Literature HL"/>
+            <StringItem index="28" value="Language A: Estonian Literature SL"/>
+            <StringItem index="29" value="Language A: Estonian Literature HL"/>
+            <StringItem index="30" value="Language A: Filipino Literature SL"/>
+            <StringItem index="31" value="Language A: Filipino Literature HL"/>
+            <StringItem index="32" value="Language A: Finnish Literature SL"/>
+            <StringItem index="33" value="Language A: Finnish Literature HL"/>
+            <StringItem index="34" value="Language A: French (N) Literature SL"/>
+            <StringItem index="35" value="Language A: French (N) Literature HL"/>
+            <StringItem index="36" value="Language A: German (N) Literature SL"/>
+            <StringItem index="37" value="Language A: German (N) Literature HL"/>
+            <StringItem index="38" value="Language A: Hebrew Literature SL"/>
+            <StringItem index="39" value="Language A: Hebrew Literature HL"/>
+            <StringItem index="40" value="Language A: Hindi Literature SL"/>
+            <StringItem index="41" value="Language A: Hindi Literature HL"/>
+            <StringItem index="42" value="Language A: Hungarian Literature SL"/>
+            <StringItem index="43" value="Language A: Hungarian Literature HL"/>
+            <StringItem index="44" value="Language A: Icelandic Literature SL"/>
+            <StringItem index="45" value="Language A: Icelandic Literature HL"/>
+            <StringItem index="46" value="Language A: Indonesian (N) Literature SL"/>
+            <StringItem index="47" value="Language A: Indonesian (N) Literature HL"/>
+            <StringItem index="48" value="Language A: Italian Literature SL"/>
+            <StringItem index="49" value="Language A: Italian Literature HL"/>
+            <StringItem index="50" value="Language A: Japanese (N) Literature SL"/>
+            <StringItem index="51" value="Language A: Japanese (N) Literature HL"/>
+            <StringItem index="52" value="Language A: Korean (N) Literature SL"/>
+            <StringItem index="53" value="Language A: Korean (N) Literature HL"/>
+            <StringItem index="54" value="Language A: Latvian Literature SL"/>
+            <StringItem index="55" value="Language A: Latvian Literature HL"/>
+            <StringItem index="56" value="Language A: Lithuanian Literature SL"/>
+            <StringItem index="57" value="Language A: Lithuanian Literature HL"/>
+            <StringItem index="58" value="Language A: Macedonian Literature SL"/>
+            <StringItem index="59" value="Language A: Macedonian Literature HL"/>
+            <StringItem index="60" value="Language A: Malay Literature SL"/>
+            <StringItem index="61" value="Language A: Malay Literature HL"/>
+            <StringItem index="62" value="Language A: Modern Greek Literature SL"/>
+            <StringItem index="63" value="Language A: Modern Greek Literature HL"/>
+            <StringItem index="64" value="Language A: Nepali Literature SL"/>
+            <StringItem index="65" value="Language A: Nepali Literature HL"/>
+            <StringItem index="66" value="Language A: Norwegian Literature SL"/>
+            <StringItem index="67" value="Language A: Norwegian Literature HL"/>
+            <StringItem index="68" value="Language A: Persian Literature SL"/>
+            <StringItem index="69" value="Language A: Persian Literature HL"/>
+            <StringItem index="70" value="Language A: Polish Literature SL"/>
+            <StringItem index="71" value="Language A: Polish Literature HL"/>
+            <StringItem index="72" value="Language A: Portuguese (N) Literature SL"/>
+            <StringItem index="73" value="Language A: Portuguese (N) Literature HL"/>
+            <StringItem index="74" value="Language A: Romanian Literature SL"/>
+            <StringItem index="75" value="Language A: Romanian Literature HL"/>
+            <StringItem index="76" value="Language A: Russian Literature SL"/>
+            <StringItem index="77" value="Language A: Russian Literature HL"/>
+            <StringItem index="78" value="Language A: Serbian Literature SL"/>
+            <StringItem index="79" value="Language A: Serbian Literature HL"/>
+            <StringItem index="80" value="Language A: Sesotho Literature SL"/>
+            <StringItem index="81" value="Language A: Sesotho Literature HL"/>
+            <StringItem index="82" value="Language A: Sinhala Literature SL"/>
+            <StringItem index="83" value="Language A: Sinhala Literature HL"/>
+            <StringItem index="84" value="Language A: Slovak Literature SL"/>
+            <StringItem index="85" value="Language A: Slovak Literature HL"/>
+            <StringItem index="86" value="Language A: Slovene Literature SL"/>
+            <StringItem index="87" value="Language A: Slovene Literature HL"/>
+            <StringItem index="88" value="Language A: Spanish (N) Literature SL"/>
+            <StringItem index="89" value="Language A: Spanish (N) Literature HL"/>
+            <StringItem index="90" value="Language A: Swahili Literature SL"/>
+            <StringItem index="91" value="Language A: Swahili Literature HL"/>
+            <StringItem index="92" value="Language A: Swedish Literature SL"/>
+            <StringItem index="93" value="Language A: Swedish Literature HL"/>
+            <StringItem index="94" value="Language A: Thai Literature SL"/>
+            <StringItem index="95" value="Language A: Thai Literature HL"/>
+            <StringItem index="96" value="Language A: Turkish (N) Literature SL"/>
+            <StringItem index="97" value="Language A: Turkish (N) Literature HL"/>
+            <StringItem index="98" value="Language A: Ukrainian Literature SL"/>
+            <StringItem index="99" value="Language A: Ukranian Literature HL"/>
+            <StringItem index="100" value="Language A: Urdu Literature SL"/>
+            <StringItem index="101" value="Language A: Urdu Literature HL"/>
+            <StringItem index="102" value="Language A: Vietnamese Literature SL"/>
+            <StringItem index="103" value="Language A: Vietnamese Literature HL"/>
+            <StringItem index="104" value="Language A: Welsh Literature SL"/>
+            <StringItem index="105" value="Language A: Welsh Literature HL"/>
+            <StringItem index="106" value="Language A: Afrikaans Literature SL"/>
+            <StringItem index="107" value="Language A: Swati Literature SL"/>
+            <StringItem index="108" value="Language A: Arabic Language and Literature SL"/>
+            <StringItem index="109" value="Language A: Arabic Language and Literature HL"/>
+            <StringItem index="110" value="Language A: Chinese (N) Language and Literature SL"/>
+            <StringItem index="111" value="Language A: Chinese (N) Language and Literature HL"/>
+            <StringItem index="112" value="Language A: Dutch Language and Literature SL"/>
+            <StringItem index="113" value="Language A: Dutch Language and Literature HL"/>
+            <StringItem index="114" value="Language A: English (N) Language and Literature SL"/>
+            <StringItem index="115" value="Language A: English (N) Language and Literature HL"/>
+            <StringItem index="116" value="Language A: French (N) Language and Literature SL"/>
+            <StringItem index="117" value="Language A: French (N) Language and Literature HL"/>
+            <StringItem index="118" value="Language A: German (N) Language and Literature SL"/>
+            <StringItem index="119" value="Language A: German (N) Language and Literature HL"/>
+            <StringItem index="120" value="Language A: Indonesian (N) Language and Literature SL"/>
+            <StringItem index="121" value="Language A: Indonesian (N) Language and Literature HL"/>
+            <StringItem index="122" value="Language A: Italian Language and Literature SL"/>
+            <StringItem index="123" value="Language A: Italian Language and Literature HL"/>
+            <StringItem index="124" value="Language A: Japanese Language and Literature SL"/>
+            <StringItem index="125" value="Language A: Japanese Language and Literature HL"/>
+            <StringItem index="126" value="Language A: Korean Language and Literature SL"/>
+            <StringItem index="127" value="Language A: Korean Language and Literature HL"/>
+            <StringItem index="128" value="Language A: Modern Greek Language and Literature SL"/>
+            <StringItem index="129" value="Language A: Modern Greek Language and Literature HL"/>
+            <StringItem index="130" value="Language A: Norwegian Language and Literature SL"/>
+            <StringItem index="131" value="Language A: Norwegian Language and Literature HL"/>
+            <StringItem index="132" value="Language A: Portuguese (N) Language and Literature SL"/>
+            <StringItem index="133" value="Language A: Portuguese (N) Language and Literature HL"/>
+            <StringItem index="134" value="Language A: Russian Language and Literature SL"/>
+            <StringItem index="135" value="Language A: Russian Language and Literature HL"/>
+            <StringItem index="136" value="Language A: Spanish (N) Language and Literature SL"/>
+            <StringItem index="137" value="Language A: Spanish (N) Language and Literature HL"/>
+            <StringItem index="138" value="Language A: Swedish Language and Literature SL"/>
+            <StringItem index="139" value="Language A: Swedish Language and Literature HL"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Group1Name_ComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Group2Name_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="172">
+            <StringItem index="0" value="Language Ab Initio:  Albanian SL"/>
+            <StringItem index="1" value="Language Ab Initio: Amhari SL"/>
+            <StringItem index="2" value="Language Ab Initio: Arabic SL"/>
+            <StringItem index="3" value="Language Ab Initio: Belarusian SL"/>
+            <StringItem index="4" value="Language Ab Initio: Bengali SL"/>
+            <StringItem index="5" value="Language Ab Initio: Bosnian SL"/>
+            <StringItem index="6" value="Language Ab Initio: Bulgarian  SL"/>
+            <StringItem index="7" value="Language Ab Initio: Catalan SL"/>
+            <StringItem index="8" value="Language Ab Initio: Chinese (N) SL"/>
+            <StringItem index="9" value="Language Ab Initio: Croatian SL"/>
+            <StringItem index="10" value="Language Ab Initio: Czech SL"/>
+            <StringItem index="11" value="Language Ab Initio: Danish SL"/>
+            <StringItem index="12" value="Language Ab Initio: Dutch SL"/>
+            <StringItem index="13" value="Language Ab Initio: English (N)  SL"/>
+            <StringItem index="14" value="Language Ab Initio: Estonian SL"/>
+            <StringItem index="15" value="Language Ab Initio: Filipino SL"/>
+            <StringItem index="16" value="Language Ab Initio: Finnish SL"/>
+            <StringItem index="17" value="Language Ab Initio: French (N) SL"/>
+            <StringItem index="18" value="Language Ab Initio: German (N) SL"/>
+            <StringItem index="19" value="Language Ab Initio: Hebrew SL"/>
+            <StringItem index="20" value="Language Ab Initio: Hindi SL"/>
+            <StringItem index="21" value="Language Ab Initio: Hungarian SL"/>
+            <StringItem index="22" value="Language Ab Initio: Icelandic SL"/>
+            <StringItem index="23" value="Language Ab Initio: Indonesian (N) SL"/>
+            <StringItem index="24" value="Language Ab Initio: Italian SL"/>
+            <StringItem index="25" value="Language Ab Initio: Japanese (N) SL"/>
+            <StringItem index="26" value="Language Ab Initio: Korean (N) SL"/>
+            <StringItem index="27" value="Language Ab Initio: Latvian SL"/>
+            <StringItem index="28" value="Language Ab Initio: Lithuanian SL"/>
+            <StringItem index="29" value="Language Ab Initio: Macedonian SL"/>
+            <StringItem index="30" value="Language Ab Initio: Malay SL"/>
+            <StringItem index="31" value="Language Ab Initio: Modern Greek SL"/>
+            <StringItem index="32" value="Language Ab Initio: Nepali SL"/>
+            <StringItem index="33" value="Language Ab Initio: Norwegian SL"/>
+            <StringItem index="34" value="Language Ab Initio: Persian SL"/>
+            <StringItem index="35" value="Language Ab Initio: Polish SL"/>
+            <StringItem index="36" value="Language Ab Initio: Portuguese (N) SL"/>
+            <StringItem index="37" value="Language Ab Initio: Romanian SL"/>
+            <StringItem index="38" value="Language Ab Initio: Russian SL"/>
+            <StringItem index="39" value="Language Ab Initio: Serbian SL"/>
+            <StringItem index="40" value="Language Ab Initio: Sesotho SL"/>
+            <StringItem index="41" value="Language Ab Initio: Sinhala SL"/>
+            <StringItem index="42" value="Language Ab Initio: Slovak SL"/>
+            <StringItem index="43" value="Language Ab Initio: Slovene SL"/>
+            <StringItem index="44" value="Language Ab Initio: Slovene HL"/>
+            <StringItem index="45" value="Language Ab Initio: Spanish (N) SL"/>
+            <StringItem index="46" value="Language Ab Initio: Swahili SL"/>
+            <StringItem index="47" value="Language Ab Initio: Swedish SL"/>
+            <StringItem index="48" value="Language Ab Initio: Thai SL"/>
+            <StringItem index="49" value="Language Ab Initio: Turkish (N) SL"/>
+            <StringItem index="50" value="Language Ab Initio: Ukrainian SL"/>
+            <StringItem index="51" value="Language Ab Initio: Urdu SL"/>
+            <StringItem index="52" value="Language Ab Initio: Vietnamese SL"/>
+            <StringItem index="53" value="Language Ab Initio: Welsh SL"/>
+            <StringItem index="54" value="Language Ab Initio: Afrikaans SL"/>
+            <StringItem index="55" value="Language Ab Initio: Arabic SL"/>
+            <StringItem index="56" value=" "/>
+            <StringItem index="57" value=" "/>
+            <StringItem index="58" value="Language B:  Albanian SL"/>
+            <StringItem index="59" value="Language B:  Albanian HL"/>
+            <StringItem index="60" value="Language B: Amhari SL"/>
+            <StringItem index="61" value="Language B: Amhari HL"/>
+            <StringItem index="62" value="Language B: Arabic SL"/>
+            <StringItem index="63" value="Language B: Arabic HL"/>
+            <StringItem index="64" value="Language B: Bengali SL"/>
+            <StringItem index="65" value="Language B: Bengali HL"/>
+            <StringItem index="66" value="Language B: Belarusian SL"/>
+            <StringItem index="67" value="Language B: Belarusian HL"/>
+            <StringItem index="68" value="Language B: Bosnian SL"/>
+            <StringItem index="69" value="Language B: Bosnian HL"/>
+            <StringItem index="70" value="Language B: Bulgarian  SL"/>
+            <StringItem index="71" value="Language B: Bulgarian  HL"/>
+            <StringItem index="72" value="Language B: Catalan SL"/>
+            <StringItem index="73" value="Language B: Catalan SHL"/>
+            <StringItem index="74" value="Language B: Chinese (N) SL"/>
+            <StringItem index="75" value="Language B: Chinese (N) HL"/>
+            <StringItem index="76" value="Language B: Croatian SL"/>
+            <StringItem index="77" value="Language B: Croatian HL"/>
+            <StringItem index="78" value="Language B: Czech SL"/>
+            <StringItem index="79" value="Language B: Czech HL"/>
+            <StringItem index="80" value="Language B: Danish SL"/>
+            <StringItem index="81" value="Language B: Danish HL"/>
+            <StringItem index="82" value="Language B: Dutch SL"/>
+            <StringItem index="83" value="Language B: Dutch HL"/>
+            <StringItem index="84" value="Language B: English (N)  SL"/>
+            <StringItem index="85" value="Language B: English (N)  HL"/>
+            <StringItem index="86" value="Language B: Estonian SL"/>
+            <StringItem index="87" value="Language B: Estonian HL"/>
+            <StringItem index="88" value="Language B: Filipino SL"/>
+            <StringItem index="89" value="Language B: Filipino HL"/>
+            <StringItem index="90" value="Language B: Finnish SL"/>
+            <StringItem index="91" value="Language B: Finnish HL"/>
+            <StringItem index="92" value="Language B: French (N) SL"/>
+            <StringItem index="93" value="Language B: French (N) HL"/>
+            <StringItem index="94" value="Language B: German (N) SL"/>
+            <StringItem index="95" value="Language B: German (N) HL"/>
+            <StringItem index="96" value="Language B: Hebrew SL"/>
+            <StringItem index="97" value="Language B: Hebrew HL"/>
+            <StringItem index="98" value="Language B: Hindi SL"/>
+            <StringItem index="99" value="Language B: Hindi HL"/>
+            <StringItem index="100" value="Language B: Hungarian SL"/>
+            <StringItem index="101" value="Language B: Hungarian HL"/>
+            <StringItem index="102" value="Language B: Icelandic SL"/>
+            <StringItem index="103" value="Language B: Icelandic HL"/>
+            <StringItem index="104" value="Language B: Indonesian (N) SL"/>
+            <StringItem index="105" value="Language B: Indonesian (N) HL"/>
+            <StringItem index="106" value="Language B: Italian SL"/>
+            <StringItem index="107" value="Language B: Italian HL"/>
+            <StringItem index="108" value="Language B: Japanese (N) SL"/>
+            <StringItem index="109" value="Language B: Japanese (N) HL"/>
+            <StringItem index="110" value="Language B: Korean (N) SL"/>
+            <StringItem index="111" value="Language B: Korean (N) HL"/>
+            <StringItem index="112" value="Language B: Latvian SL"/>
+            <StringItem index="113" value="Language B: Latvian HL"/>
+            <StringItem index="114" value="Language B: Lithuanian SL"/>
+            <StringItem index="115" value="Language B: Lithuanian HL"/>
+            <StringItem index="116" value="Language B: Macedonian SL"/>
+            <StringItem index="117" value="Language B: Macedonian HL"/>
+            <StringItem index="118" value="Language B: Malay SL"/>
+            <StringItem index="119" value="Language B: Malay HL"/>
+            <StringItem index="120" value="Language B: Modern Greek SL"/>
+            <StringItem index="121" value="Language B: Modern Greek HL"/>
+            <StringItem index="122" value="Language B: Nepali SL"/>
+            <StringItem index="123" value="Language B: Nepali HL"/>
+            <StringItem index="124" value="Language B: Norwegian SL"/>
+            <StringItem index="125" value="Language B: Norwegian HL"/>
+            <StringItem index="126" value="Language B: Persian SL"/>
+            <StringItem index="127" value="Language B: Persian HL"/>
+            <StringItem index="128" value="Language B: Polish SL"/>
+            <StringItem index="129" value="Language B: Polish HL"/>
+            <StringItem index="130" value="Language B: Portuguese (N) SL"/>
+            <StringItem index="131" value="Language B: Portuguese (N) HL"/>
+            <StringItem index="132" value="Language B: Romanian SL"/>
+            <StringItem index="133" value="Language B: Romanian HL"/>
+            <StringItem index="134" value="Language B: Russian SL"/>
+            <StringItem index="135" value="Language B: Russian HL"/>
+            <StringItem index="136" value="Language B: Serbian SL"/>
+            <StringItem index="137" value="Language B: Serbian HL"/>
+            <StringItem index="138" value="Language B: Sesotho SL"/>
+            <StringItem index="139" value="Language B: Sesotho HL"/>
+            <StringItem index="140" value="Language B: Sinhala SL"/>
+            <StringItem index="141" value="Language B: Sinhala HL"/>
+            <StringItem index="142" value="Language B: Slovak SL"/>
+            <StringItem index="143" value="Language B: Slovak HL"/>
+            <StringItem index="144" value="Language B: Slovene SL"/>
+            <StringItem index="145" value="Language B: Slovene HL"/>
+            <StringItem index="146" value="Language B: Spanish (N) SL"/>
+            <StringItem index="147" value="Language B: Spanish (N) HL"/>
+            <StringItem index="148" value="Language B: Swahili SL"/>
+            <StringItem index="149" value="Language B: Swahili HL"/>
+            <StringItem index="150" value="Language B: Swedish SL"/>
+            <StringItem index="151" value="Language B: Swedish HL"/>
+            <StringItem index="152" value="Language B: Thai SL"/>
+            <StringItem index="153" value="Language B: Thai HL"/>
+            <StringItem index="154" value="Language B: Turkish (N) SL"/>
+            <StringItem index="155" value="Language B: Turkish (N) HL"/>
+            <StringItem index="156" value="Language B: Ukrainian SL"/>
+            <StringItem index="157" value="Language B: Ukrainian HL"/>
+            <StringItem index="158" value="Language B: Urdu SL"/>
+            <StringItem index="159" value="Language B: Urdu HL"/>
+            <StringItem index="160" value="Language B: Vietnamese SL"/>
+            <StringItem index="161" value="Language B: Vietnamese HL"/>
+            <StringItem index="162" value="Language B: Welsh SL"/>
+            <StringItem index="163" value="Language B: Welsh HL"/>
+            <StringItem index="164" value="Language B: Afrikaans SL"/>
+            <StringItem index="165" value="Language B: Afrikaans HL"/>
+            <StringItem index="166" value="Language B: Arabic SL"/>
+            <StringItem index="167" value="Language B: Arabic HL"/>
+            <StringItem index="168" value="Classical Languages: Latin SL"/>
+            <StringItem index="169" value="Classical Languages: Latin HL"/>
+            <StringItem index="170" value="Classical Languages: Greek SL"/>
+            <StringItem index="171" value="Classical Languages: Greek HL"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Group2Name_ComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Group3Name_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="33" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="21">
+            <StringItem index="0" value="Business Management SL"/>
+            <StringItem index="1" value="Business Management HL"/>
+            <StringItem index="2" value="Economics SL"/>
+            <StringItem index="3" value="Economics HL"/>
+            <StringItem index="4" value="Geography SL"/>
+            <StringItem index="5" value="Geography HL"/>
+            <StringItem index="6" value="Global Politics SL"/>
+            <StringItem index="7" value="Global Politics HL"/>
+            <StringItem index="8" value="History SL"/>
+            <StringItem index="9" value="History HL"/>
+            <StringItem index="10" value="ITGS SL"/>
+            <StringItem index="11" value="ITGS HL"/>
+            <StringItem index="12" value="Philosophy SL"/>
+            <StringItem index="13" value="Philosophy HL"/>
+            <StringItem index="14" value="Psychology SL"/>
+            <StringItem index="15" value="Psychology HL"/>
+            <StringItem index="16" value="Social and Cultural Anthropology SL"/>
+            <StringItem index="17" value="Social and Cultural Anthropology HL"/>
+            <StringItem index="18" value="World Religions SL"/>
+            <StringItem index="19" value="Environmental Systems and Societies SL"/>
+            <StringItem index="20" value="Environmental Systems and Societies HL"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Group3Name_ComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Group4Name_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="ff" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="14">
+            <StringItem index="0" value="Biology SL"/>
+            <StringItem index="1" value="Biology HL"/>
+            <StringItem index="2" value="Computer Science SL"/>
+            <StringItem index="3" value="Computer Science HL"/>
+            <StringItem index="4" value="Chemistry SL"/>
+            <StringItem index="5" value="Chemistry HL"/>
+            <StringItem index="6" value="Design Technology SL"/>
+            <StringItem index="7" value="Design Technology HL"/>
+            <StringItem index="8" value="Physics SL"/>
+            <StringItem index="9" value="Physics HL"/>
+            <StringItem index="10" value="Sports, Exercise, and Health Sciences SL"/>
+            <StringItem index="11" value="Sports, Exercise, and Health Sciences HL"/>
+            <StringItem index="12" value="Environmental Systems and Societies SL"/>
+            <StringItem index="13" value="Environmental Systems and Societies HL"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Group4Name_ComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Group5Name_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Mathematical Studies SL"/>
+            <StringItem index="1" value="Mathematics SL"/>
+            <StringItem index="2" value="Mathematics HL"/>
+            <StringItem index="3" value="Further Mathematics HL"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Group5Name_ComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Group6Name_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="0" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="359">
+            <StringItem index="0" value="Dance SL"/>
+            <StringItem index="1" value="Dance HL"/>
+            <StringItem index="2" value="Music SL"/>
+            <StringItem index="3" value="Music HL"/>
+            <StringItem index="4" value="Film SL"/>
+            <StringItem index="5" value="Film HL"/>
+            <StringItem index="6" value="Theatre SL"/>
+            <StringItem index="7" value="Theatre HL"/>
+            <StringItem index="8" value="Visual Arts SL"/>
+            <StringItem index="9" value="Visual Arts HL"/>
+            <StringItem index="10" value="Language A:  Albanian Literature SL"/>
+            <StringItem index="11" value="Language A: Albanian Literature HL"/>
+            <StringItem index="12" value="Language A: Amharic Literature SL"/>
+            <StringItem index="13" value="Language A: Amhari Literature HL"/>
+            <StringItem index="14" value="Language A: Arabic Literature SL"/>
+            <StringItem index="15" value="Language A: Arabic Literature HL"/>
+            <StringItem index="16" value="Language A: Belarusian Literature SL"/>
+            <StringItem index="17" value="Language A: Belarusian Literature HL"/>
+            <StringItem index="18" value="Language A: Bengali Literature SL"/>
+            <StringItem index="19" value="Language A: Bengali Literature HL"/>
+            <StringItem index="20" value="Language A: Bosnian Literature SL"/>
+            <StringItem index="21" value="Language A: Bosnian Literature HL"/>
+            <StringItem index="22" value="Language A: Bulgarian Literature SL"/>
+            <StringItem index="23" value="Language A: Bulgarian Literature HL"/>
+            <StringItem index="24" value="Language A: Catalan Literature SL"/>
+            <StringItem index="25" value="Language A: Catalan Literature HL"/>
+            <StringItem index="26" value="Language A: Chinese (N) Literature SL"/>
+            <StringItem index="27" value="Language A: Chinese (N) Literature HL"/>
+            <StringItem index="28" value="Language A: Croatian Literature SL"/>
+            <StringItem index="29" value="Language A: Croatian Literature HL"/>
+            <StringItem index="30" value="Language A: Czech Literature SL"/>
+            <StringItem index="31" value="Language A: Czech Literature HL"/>
+            <StringItem index="32" value="Language A: Danish Literature SL"/>
+            <StringItem index="33" value="Language A: Danish Literature HL"/>
+            <StringItem index="34" value="Language A: Dutch Literature SL"/>
+            <StringItem index="35" value="Language A: Dutch Literature HL"/>
+            <StringItem index="36" value="Language A: English (N) Literature SL"/>
+            <StringItem index="37" value="Language A: English (N) Literature HL"/>
+            <StringItem index="38" value="Language A: Estonian Literature SL"/>
+            <StringItem index="39" value="Language A: Estonian Literature HL"/>
+            <StringItem index="40" value="Language A: Filipino Literature SL"/>
+            <StringItem index="41" value="Language A: Filipino Literature HL"/>
+            <StringItem index="42" value="Language A: Finnish Literature SL"/>
+            <StringItem index="43" value="Language A: Finnish Literature HL"/>
+            <StringItem index="44" value="Language A: French (N) Literature SL"/>
+            <StringItem index="45" value="Language A: French (N) Literature HL"/>
+            <StringItem index="46" value="Language A: German (N) Literature SL"/>
+            <StringItem index="47" value="Language A: German (N) Literature HL"/>
+            <StringItem index="48" value="Language A: Hebrew Literature SL"/>
+            <StringItem index="49" value="Language A: Hebrew Literature HL"/>
+            <StringItem index="50" value="Language A: Hindi Literature SL"/>
+            <StringItem index="51" value="Language A: Hindi Literature HL"/>
+            <StringItem index="52" value="Language A: Hungarian Literature SL"/>
+            <StringItem index="53" value="Language A: Hungarian Literature HL"/>
+            <StringItem index="54" value="Language A: Icelandic Literature SL"/>
+            <StringItem index="55" value="Language A: Icelandic Literature HL"/>
+            <StringItem index="56" value="Language A: Indonesian (N) Literature SL"/>
+            <StringItem index="57" value="Language A: Indonesian (N) Literature HL"/>
+            <StringItem index="58" value="Language A: Italian Literature SL"/>
+            <StringItem index="59" value="Language A: Italian Literature HL"/>
+            <StringItem index="60" value="Language A: Japanese (N) Literature SL"/>
+            <StringItem index="61" value="Language A: Japanese (N) Literature HL"/>
+            <StringItem index="62" value="Language A: Korean (N) Literature SL"/>
+            <StringItem index="63" value="Language A: Korean (N) Literature HL"/>
+            <StringItem index="64" value="Language A: Latvian Literature SL"/>
+            <StringItem index="65" value="Language A: Latvian Literature HL"/>
+            <StringItem index="66" value="Language A: Lithuanian Literature SL"/>
+            <StringItem index="67" value="Language A: Lithuanian Literature HL"/>
+            <StringItem index="68" value="Language A: Macedonian Literature SL"/>
+            <StringItem index="69" value="Language A: Macedonian Literature HL"/>
+            <StringItem index="70" value="Language A: Malay Literature SL"/>
+            <StringItem index="71" value="Language A: Malay Literature HL"/>
+            <StringItem index="72" value="Language A: Modern Greek Literature SL"/>
+            <StringItem index="73" value="Language A: Modern Greek Literature HL"/>
+            <StringItem index="74" value="Language A: Nepali Literature SL"/>
+            <StringItem index="75" value="Language A: Nepali Literature HL"/>
+            <StringItem index="76" value="Language A: Norwegian Literature SL"/>
+            <StringItem index="77" value="Language A: Norwegian Literature HL"/>
+            <StringItem index="78" value="Language A: Persian Literature SL"/>
+            <StringItem index="79" value="Language A: Persian Literature HL"/>
+            <StringItem index="80" value="Language A: Polish Literature SL"/>
+            <StringItem index="81" value="Language A: Polish Literature HL"/>
+            <StringItem index="82" value="Language A: Portuguese (N) Literature SL"/>
+            <StringItem index="83" value="Language A: Portuguese (N) Literature HL"/>
+            <StringItem index="84" value="Language A: Romanian Literature SL"/>
+            <StringItem index="85" value="Language A: Romanian Literature HL"/>
+            <StringItem index="86" value="Language A: Russian Literature SL"/>
+            <StringItem index="87" value="Language A: Russian Literature HL"/>
+            <StringItem index="88" value="Language A: Serbian Literature SL"/>
+            <StringItem index="89" value="Language A: Serbian Literature HL"/>
+            <StringItem index="90" value="Language A: Sesotho Literature SL"/>
+            <StringItem index="91" value="Language A: Sesotho Literature HL"/>
+            <StringItem index="92" value="Language A: Sinhala Literature SL"/>
+            <StringItem index="93" value="Language A: Sinhala Literature HL"/>
+            <StringItem index="94" value="Language A: Slovak Literature SL"/>
+            <StringItem index="95" value="Language A: Slovak Literature HL"/>
+            <StringItem index="96" value="Language A: Slovene Literature SL"/>
+            <StringItem index="97" value="Language A: Slovene Literature HL"/>
+            <StringItem index="98" value="Language A: Spanish (N) Literature SL"/>
+            <StringItem index="99" value="Language A: Spanish (N) Literature HL"/>
+            <StringItem index="100" value="Language A: Swahili Literature SL"/>
+            <StringItem index="101" value="Language A: Swahili Literature HL"/>
+            <StringItem index="102" value="Language A: Swedish Literature SL"/>
+            <StringItem index="103" value="Language A: Swedish Literature HL"/>
+            <StringItem index="104" value="Language A: Thai Literature SL"/>
+            <StringItem index="105" value="Language A: Thai Literature HL"/>
+            <StringItem index="106" value="Language A: Turkish (N) Literature SL"/>
+            <StringItem index="107" value="Language A: Turkish (N) Literature HL"/>
+            <StringItem index="108" value="Language A: Ukrainian Literature SL"/>
+            <StringItem index="109" value="Language A: Ukranian Literature HL"/>
+            <StringItem index="110" value="Language A: Urdu Literature SL"/>
+            <StringItem index="111" value="Language A: Urdu Literature HL"/>
+            <StringItem index="112" value="Language A: Vietnamese Literature SL"/>
+            <StringItem index="113" value="Language A: Vietnamese Literature HL"/>
+            <StringItem index="114" value="Language A: Welsh Literature SL"/>
+            <StringItem index="115" value="Language A: Welsh Literature HL"/>
+            <StringItem index="116" value="Language A: Afrikaans Literature SL"/>
+            <StringItem index="117" value="Language A: Swati Literature SL"/>
+            <StringItem index="118" value="Language A: Arabic Language and Literature SL"/>
+            <StringItem index="119" value="Language A: Arabic Language and Literature HL"/>
+            <StringItem index="120" value="Language A: Chinese (N) Language and Literature SL"/>
+            <StringItem index="121" value="Language A: Chinese (N) Language and Literature HL"/>
+            <StringItem index="122" value="Language A: Dutch Language and Literature SL"/>
+            <StringItem index="123" value="Language A: Dutch Language and Literature HL"/>
+            <StringItem index="124" value="Language A: English (N) Language and Literature SL"/>
+            <StringItem index="125" value="Language A: English (N) Language and Literature HL"/>
+            <StringItem index="126" value="Language A: French (N) Language and Literature SL"/>
+            <StringItem index="127" value="Language A: French (N) Language and Literature HL"/>
+            <StringItem index="128" value="Language A: German (N) Language and Literature SL"/>
+            <StringItem index="129" value="Language A: German (N) Language and Literature HL"/>
+            <StringItem index="130" value="Language A: Indonesian (N) Language and Literature SL"/>
+            <StringItem index="131" value="Language A: Indonesian (N) Language and Literature HL"/>
+            <StringItem index="132" value="Language A: Italian Language and Literature SL"/>
+            <StringItem index="133" value="Language A: Italian Language and Literature HL"/>
+            <StringItem index="134" value="Language A: Japanese Language and Literature SL"/>
+            <StringItem index="135" value="Language A: Japanese Language and Literature HL"/>
+            <StringItem index="136" value="Language A: Korean Language and Literature SL"/>
+            <StringItem index="137" value="Language A: Korean Language and Literature HL"/>
+            <StringItem index="138" value="Language A: Modern Greek Language and Literature SL"/>
+            <StringItem index="139" value="Language A: Modern Greek Language and Literature HL"/>
+            <StringItem index="140" value="Language A: Norwegian Language and Literature SL"/>
+            <StringItem index="141" value="Language A: Norwegian Language and Literature HL"/>
+            <StringItem index="142" value="Language A: Portuguese (N) Language and Literature SL"/>
+            <StringItem index="143" value="Language A: Portuguese (N) Language and Literature HL"/>
+            <StringItem index="144" value="Language A: Russian Language and Literature SL"/>
+            <StringItem index="145" value="Language A: Russian Language and Literature HL"/>
+            <StringItem index="146" value="Language A: Spanish (N) Language and Literature SL"/>
+            <StringItem index="147" value="Language A: Spanish (N) Language and Literature HL"/>
+            <StringItem index="148" value="Language A: Swedish Language and Literature SL"/>
+            <StringItem index="149" value="Language A: Swedish Language and Literature HL"/>
+            <StringItem index="150" value="Language Ab Initio:  Albanian SL"/>
+            <StringItem index="151" value="Language Ab Initio: Amhari SL"/>
+            <StringItem index="152" value="Language Ab Initio: Arabic SL"/>
+            <StringItem index="153" value="Language Ab Initio: Belarusian SL"/>
+            <StringItem index="154" value="Language Ab Initio: Bengali SL"/>
+            <StringItem index="155" value="Language Ab Initio: Bosnian SL"/>
+            <StringItem index="156" value="Language Ab Initio: Bulgarian  SL"/>
+            <StringItem index="157" value="Language Ab Initio: Catalan SL"/>
+            <StringItem index="158" value="Language Ab Initio: Chinese (N) SL"/>
+            <StringItem index="159" value="Language Ab Initio: Croatian SL"/>
+            <StringItem index="160" value="Language Ab Initio: Czech SL"/>
+            <StringItem index="161" value="Language Ab Initio: Danish SL"/>
+            <StringItem index="162" value="Language Ab Initio: Dutch SL"/>
+            <StringItem index="163" value="Language Ab Initio: English (N)  SL"/>
+            <StringItem index="164" value="Language Ab Initio: Estonian SL"/>
+            <StringItem index="165" value="Language Ab Initio: Filipino SL"/>
+            <StringItem index="166" value="Language Ab Initio: Finnish SL"/>
+            <StringItem index="167" value="Language Ab Initio: French (N) SL"/>
+            <StringItem index="168" value="Language Ab Initio: German (N) SL"/>
+            <StringItem index="169" value="Language Ab Initio: Hebrew SL"/>
+            <StringItem index="170" value="Language Ab Initio: Hindi SL"/>
+            <StringItem index="171" value="Language Ab Initio: Hungarian SL"/>
+            <StringItem index="172" value="Language Ab Initio: Icelandic SL"/>
+            <StringItem index="173" value="Language Ab Initio: Indonesian (N) SL"/>
+            <StringItem index="174" value="Language Ab Initio: Italian SL"/>
+            <StringItem index="175" value="Language Ab Initio: Japanese (N) SL"/>
+            <StringItem index="176" value="Language Ab Initio: Korean (N) SL"/>
+            <StringItem index="177" value="Language Ab Initio: Latvian SL"/>
+            <StringItem index="178" value="Language Ab Initio: Lithuanian SL"/>
+            <StringItem index="179" value="Language Ab Initio: Macedonian SL"/>
+            <StringItem index="180" value="Language Ab Initio: Malay SL"/>
+            <StringItem index="181" value="Language Ab Initio: Modern Greek SL"/>
+            <StringItem index="182" value="Language Ab Initio: Nepali SL"/>
+            <StringItem index="183" value="Language Ab Initio: Norwegian SL"/>
+            <StringItem index="184" value="Language Ab Initio: Persian SL"/>
+            <StringItem index="185" value="Language Ab Initio: Polish SL"/>
+            <StringItem index="186" value="Language Ab Initio: Portuguese (N) SL"/>
+            <StringItem index="187" value="Language Ab Initio: Romanian SL"/>
+            <StringItem index="188" value="Language Ab Initio: Russian SL"/>
+            <StringItem index="189" value="Language Ab Initio: Serbian SL"/>
+            <StringItem index="190" value="Language Ab Initio: Sesotho SL"/>
+            <StringItem index="191" value="Language Ab Initio: Sinhala SL"/>
+            <StringItem index="192" value="Language Ab Initio: Slovak SL"/>
+            <StringItem index="193" value="Language Ab Initio: Slovene SL"/>
+            <StringItem index="194" value="Language Ab Initio: Slovene HL"/>
+            <StringItem index="195" value="Language Ab Initio: Spanish (N) SL"/>
+            <StringItem index="196" value="Language Ab Initio: Swahili SL"/>
+            <StringItem index="197" value="Language Ab Initio: Swedish SL"/>
+            <StringItem index="198" value="Language Ab Initio: Thai SL"/>
+            <StringItem index="199" value="Language Ab Initio: Turkish (N) SL"/>
+            <StringItem index="200" value="Language Ab Initio: Ukrainian SL"/>
+            <StringItem index="201" value="Language Ab Initio: Urdu SL"/>
+            <StringItem index="202" value="Language Ab Initio: Vietnamese SL"/>
+            <StringItem index="203" value="Language Ab Initio: Welsh SL"/>
+            <StringItem index="204" value="Language Ab Initio: Afrikaans SL"/>
+            <StringItem index="205" value="Language Ab Initio: Arabic SL"/>
+            <StringItem index="206" value=" "/>
+            <StringItem index="207" value=" "/>
+            <StringItem index="208" value="Language B:  Albanian SL"/>
+            <StringItem index="209" value="Language B:  Albanian HL"/>
+            <StringItem index="210" value="Language B: Amhari SL"/>
+            <StringItem index="211" value="Language B: Amhari HL"/>
+            <StringItem index="212" value="Language B: Arabic SL"/>
+            <StringItem index="213" value="Language B: Arabic HL"/>
+            <StringItem index="214" value="Language B: Bengali SL"/>
+            <StringItem index="215" value="Language B: Bengali HL"/>
+            <StringItem index="216" value="Language B: Belarusian SL"/>
+            <StringItem index="217" value="Language B: Belarusian HL"/>
+            <StringItem index="218" value="Language B: Bosnian SL"/>
+            <StringItem index="219" value="Language B: Bosnian HL"/>
+            <StringItem index="220" value="Language B: Bulgarian  SL"/>
+            <StringItem index="221" value="Language B: Bulgarian  HL"/>
+            <StringItem index="222" value="Language B: Catalan SL"/>
+            <StringItem index="223" value="Language B: Catalan SHL"/>
+            <StringItem index="224" value="Language B: Chinese (N) SL"/>
+            <StringItem index="225" value="Language B: Chinese (N) HL"/>
+            <StringItem index="226" value="Language B: Croatian SL"/>
+            <StringItem index="227" value="Language B: Croatian HL"/>
+            <StringItem index="228" value="Language B: Czech SL"/>
+            <StringItem index="229" value="Language B: Czech HL"/>
+            <StringItem index="230" value="Language B: Danish SL"/>
+            <StringItem index="231" value="Language B: Danish HL"/>
+            <StringItem index="232" value="Language B: Dutch SL"/>
+            <StringItem index="233" value="Language B: Dutch HL"/>
+            <StringItem index="234" value="Language B: English (N)  SL"/>
+            <StringItem index="235" value="Language B: English (N)  HL"/>
+            <StringItem index="236" value="Language B: Estonian SL"/>
+            <StringItem index="237" value="Language B: Estonian HL"/>
+            <StringItem index="238" value="Language B: Filipino SL"/>
+            <StringItem index="239" value="Language B: Filipino HL"/>
+            <StringItem index="240" value="Language B: Finnish SL"/>
+            <StringItem index="241" value="Language B: Finnish HL"/>
+            <StringItem index="242" value="Language B: French (N) SL"/>
+            <StringItem index="243" value="Language B: French (N) HL"/>
+            <StringItem index="244" value="Language B: German (N) SL"/>
+            <StringItem index="245" value="Language B: German (N) HL"/>
+            <StringItem index="246" value="Language B: Hebrew SL"/>
+            <StringItem index="247" value="Language B: Hebrew HL"/>
+            <StringItem index="248" value="Language B: Hindi SL"/>
+            <StringItem index="249" value="Language B: Hindi HL"/>
+            <StringItem index="250" value="Language B: Hungarian SL"/>
+            <StringItem index="251" value="Language B: Hungarian HL"/>
+            <StringItem index="252" value="Language B: Icelandic SL"/>
+            <StringItem index="253" value="Language B: Icelandic HL"/>
+            <StringItem index="254" value="Language B: Indonesian (N) SL"/>
+            <StringItem index="255" value="Language B: Indonesian (N) HL"/>
+            <StringItem index="256" value="Language B: Italian SL"/>
+            <StringItem index="257" value="Language B: Italian HL"/>
+            <StringItem index="258" value="Language B: Japanese (N) SL"/>
+            <StringItem index="259" value="Language B: Japanese (N) HL"/>
+            <StringItem index="260" value="Language B: Korean (N) SL"/>
+            <StringItem index="261" value="Language B: Korean (N) HL"/>
+            <StringItem index="262" value="Language B: Latvian SL"/>
+            <StringItem index="263" value="Language B: Latvian HL"/>
+            <StringItem index="264" value="Language B: Lithuanian SL"/>
+            <StringItem index="265" value="Language B: Lithuanian HL"/>
+            <StringItem index="266" value="Language B: Macedonian SL"/>
+            <StringItem index="267" value="Language B: Macedonian HL"/>
+            <StringItem index="268" value="Language B: Malay SL"/>
+            <StringItem index="269" value="Language B: Malay HL"/>
+            <StringItem index="270" value="Language B: Modern Greek SL"/>
+            <StringItem index="271" value="Language B: Modern Greek HL"/>
+            <StringItem index="272" value="Language B: Nepali SL"/>
+            <StringItem index="273" value="Language B: Nepali HL"/>
+            <StringItem index="274" value="Language B: Norwegian SL"/>
+            <StringItem index="275" value="Language B: Norwegian HL"/>
+            <StringItem index="276" value="Language B: Persian SL"/>
+            <StringItem index="277" value="Language B: Persian HL"/>
+            <StringItem index="278" value="Language B: Polish SL"/>
+            <StringItem index="279" value="Language B: Polish HL"/>
+            <StringItem index="280" value="Language B: Portuguese (N) SL"/>
+            <StringItem index="281" value="Language B: Portuguese (N) HL"/>
+            <StringItem index="282" value="Language B: Romanian SL"/>
+            <StringItem index="283" value="Language B: Romanian HL"/>
+            <StringItem index="284" value="Language B: Russian SL"/>
+            <StringItem index="285" value="Language B: Russian HL"/>
+            <StringItem index="286" value="Language B: Serbian SL"/>
+            <StringItem index="287" value="Language B: Serbian HL"/>
+            <StringItem index="288" value="Language B: Sesotho SL"/>
+            <StringItem index="289" value="Language B: Sesotho HL"/>
+            <StringItem index="290" value="Language B: Sinhala SL"/>
+            <StringItem index="291" value="Language B: Sinhala HL"/>
+            <StringItem index="292" value="Language B: Slovak SL"/>
+            <StringItem index="293" value="Language B: Slovak HL"/>
+            <StringItem index="294" value="Language B: Slovene SL"/>
+            <StringItem index="295" value="Language B: Slovene HL"/>
+            <StringItem index="296" value="Language B: Spanish (N) SL"/>
+            <StringItem index="297" value="Language B: Spanish (N) HL"/>
+            <StringItem index="298" value="Language B: Swahili SL"/>
+            <StringItem index="299" value="Language B: Swahili HL"/>
+            <StringItem index="300" value="Language B: Swedish SL"/>
+            <StringItem index="301" value="Language B: Swedish HL"/>
+            <StringItem index="302" value="Language B: Thai SL"/>
+            <StringItem index="303" value="Language B: Thai HL"/>
+            <StringItem index="304" value="Language B: Turkish (N) SL"/>
+            <StringItem index="305" value="Language B: Turkish (N) HL"/>
+            <StringItem index="306" value="Language B: Ukrainian SL"/>
+            <StringItem index="307" value="Language B: Ukrainian HL"/>
+            <StringItem index="308" value="Language B: Urdu SL"/>
+            <StringItem index="309" value="Language B: Urdu HL"/>
+            <StringItem index="310" value="Language B: Vietnamese SL"/>
+            <StringItem index="311" value="Language B: Vietnamese HL"/>
+            <StringItem index="312" value="Language B: Welsh SL"/>
+            <StringItem index="313" value="Language B: Welsh HL"/>
+            <StringItem index="314" value="Language B: Afrikaans SL"/>
+            <StringItem index="315" value="Language B: Afrikaans HL"/>
+            <StringItem index="316" value="Language B: Arabic SL"/>
+            <StringItem index="317" value="Language B: Arabic HL"/>
+            <StringItem index="318" value="Classical Languages: Latin SL"/>
+            <StringItem index="319" value="Classical Languages: Latin HL"/>
+            <StringItem index="320" value="Classical Languages: Greek SL"/>
+            <StringItem index="321" value="Classical Languages: Greek HL"/>
+            <StringItem index="322" value="Business Management SL"/>
+            <StringItem index="323" value="Business Management HL"/>
+            <StringItem index="324" value="Economics SL"/>
+            <StringItem index="325" value="Economics HL"/>
+            <StringItem index="326" value="Geography SL"/>
+            <StringItem index="327" value="Geography HL"/>
+            <StringItem index="328" value="Global Politics SL"/>
+            <StringItem index="329" value="Global Politics HL"/>
+            <StringItem index="330" value="History SL"/>
+            <StringItem index="331" value="History HL"/>
+            <StringItem index="332" value="ITGS SL"/>
+            <StringItem index="333" value="ITGS HL"/>
+            <StringItem index="334" value="Philosophy SL"/>
+            <StringItem index="335" value="Philosophy HL"/>
+            <StringItem index="336" value="Psychology SL"/>
+            <StringItem index="337" value="Psychology HL"/>
+            <StringItem index="338" value="Social and Cultural Anthropology SL"/>
+            <StringItem index="339" value="Social and Cultural Anthropology HL"/>
+            <StringItem index="340" value="World Religions SL"/>
+            <StringItem index="341" value="Environmental Systems and Societies SL"/>
+            <StringItem index="342" value="Environmental Systems and Societies HL"/>
+            <StringItem index="343" value="Biology SL"/>
+            <StringItem index="344" value="Biology HL"/>
+            <StringItem index="345" value="Computer Science SL"/>
+            <StringItem index="346" value="Computer Science HL"/>
+            <StringItem index="347" value="Chemistry SL"/>
+            <StringItem index="348" value="Chemistry HL"/>
+            <StringItem index="349" value="Design Technology SL"/>
+            <StringItem index="350" value="Design Technology HL"/>
+            <StringItem index="351" value="Physics SL"/>
+            <StringItem index="352" value="Physics HL"/>
+            <StringItem index="353" value="Sports, Exercise, and Health Sciences SL"/>
+            <StringItem index="354" value="Sports, Exercise, and Health Sciences HL"/>
+            <StringItem index="355" value="Mathematical Studies SL"/>
+            <StringItem index="356" value="Mathematics SL"/>
+            <StringItem index="357" value="Mathematics HL"/>
+            <StringItem index="358" value="Further Mathematics HL"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Group6Name_ComboBoxMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Group6Name_ComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="CalculateIBScore_Button">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="12" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Calculate"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CalculateIBScore_ButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Group1Score_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Group1Score_ComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Group3Score_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Group3Score_ComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Group2Score_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Group2Score_ComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Group4Score_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Group4Score_ComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Group6Score_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Group6Score_ComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Group5Score_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Group5Score_ComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway ExtraBold" size="14" style="3"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e8" green="76" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Group 1:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway ExtraBold" size="14" style="3"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e8" green="76" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Group 2:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway ExtraBold" size="14" style="3"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e8" green="76" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Group 3:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway ExtraBold" size="14" style="3"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e8" green="76" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Group 4:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway ExtraBold" size="14" style="3"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e8" green="76" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Group 5:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway ExtraBold" size="14" style="3"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e8" green="76" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Group 6:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ExtrasName_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="0" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="1">
+            <StringItem index="0" value="Theory of Knowledge &amp; Extended Essay"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ExtrasName_ComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ExtrasScore_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ExtrasScore_ComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway ExtraBold" size="14" style="3"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e8" green="76" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Extras:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TotalIBScore_Label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway ExtraBold" size="14" style="3"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e8" green="76" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Total IB Score:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TotalIBScore_TextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="df" green="d9" red="d6" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway ExtraBold" size="14" style="3"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TotalIBScore_TextFieldActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="SaveIB_Button">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="12" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SaveIB_ButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

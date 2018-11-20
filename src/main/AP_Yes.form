@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="0"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="SaveAPScores_Button" min="-2" pref="102" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="ResetAPScores_Button" min="-2" pref="102" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="Heading1_Label" min="-2" max="-2" attributes="0"/>
+                  <Component id="Heading_Label" min="-2" max="-2" attributes="0"/>
+                  <Component id="APCoursesNumber_ComboBox" min="-2" pref="102" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="FirstAPCourse_ComboBox" max="32767" attributes="0"/>
+                          <Component id="SecondAPCourse_ComboBox" alignment="0" max="32767" attributes="0"/>
+                          <Component id="ThirdAPCourse_ComboBox" alignment="0" max="32767" attributes="0"/>
+                          <Component id="FourthAPCourse_ComboBox" alignment="0" max="32767" attributes="0"/>
+                          <Component id="FifthAPCourse_ComboBox" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ThirdAPCourseMark_ComboBox" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="SecondAPCourseMark_ComboBox" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="FirstAPCourseMark_ComboBox" min="-2" pref="50" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="FourthAPCourseMark_ComboBox" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="FifthAPCourseMark_ComboBox" min="-2" pref="50" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="SeventhAPCourse_ComboBox" alignment="0" min="-2" pref="257" max="-2" attributes="0"/>
+                          <Component id="EigthAPCourse_ComboBox" alignment="0" min="-2" pref="257" max="-2" attributes="0"/>
+                          <Component id="NinthAPCourse_ComboBox" alignment="0" min="-2" pref="257" max="-2" attributes="0"/>
+                          <Component id="TenthAPCourse_ComboBox" alignment="1" min="-2" pref="257" max="-2" attributes="0"/>
+                          <Component id="SixthAPCourse_ComboBox" min="-2" pref="257" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="TenthAPCourseMark_ComboBox" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="NinthAPCourseMark_ComboBox" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="EigthAPCourseMark_ComboBox" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="SeventhAPCourseMark_ComboBox" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="SixthAPCourseMark_ComboBox" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="Heading_Label" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="APCoursesNumber_ComboBox" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Heading1_Label" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="FirstAPCourse_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="FirstAPCourseMark_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="SecondAPCourse_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="SecondAPCourseMark_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ThirdAPCourse_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ThirdAPCourseMark_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="FourthAPCourse_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="FourthAPCourseMark_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="FifthAPCourse_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="FifthAPCourseMark_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="SixthAPCourse_ComboBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Component id="SeventhAPCourse_ComboBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="EigthAPCourse_ComboBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="NinthAPCourse_ComboBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="TenthAPCourse_ComboBox" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="SixthAPCourseMark_ComboBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="SeventhAPCourseMark_ComboBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="EigthAPCourseMark_ComboBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="NinthAPCourseMark_ComboBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="TenthAPCourseMark_ComboBox" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="SaveAPScores_Button" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ResetAPScores_Button" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="91" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e8" green="76" red="2d" type="rgb"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jPanel2MouseDragged"/>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel2MousePressed"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="Exit" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="GoBack_Label" min="-2" max="-2" attributes="0"/>
+                      <Component id="AcademicsPage_Label" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="Exit" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="AcademicsPage_Label" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="GoBack_Label" min="-2" pref="31" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="Exit">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Verdana" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="X"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ExitMousePressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="AcademicsPage_Label">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Raleway ExtraBold" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/main/Images/icons8_Books_48px.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="AP Predicted/Grades"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="GoBack_Label">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/main/Images/icons8_Long_Arrow_Left_48px_2.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="GoBack_LabelMousePressed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JComboBox" name="APCoursesNumber_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="10">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+            <StringItem index="7" value="8"/>
+            <StringItem index="8" value="9"/>
+            <StringItem index="9" value="10"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="APCoursesNumber_ComboBoxItemStateChanged"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="APCoursesNumber_ComboBoxAncestorAdded"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="APCoursesNumber_ComboBoxMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="APCoursesNumber_ComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Heading_Label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway ExtraBold" size="14" style="3"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e8" green="76" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Please choose the number of AP Courses taken:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="FirstAPCourse_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="39">
+            <StringItem index="0" value="Choose a subject:"/>
+            <StringItem index="1" value="Art History"/>
+            <StringItem index="2" value="Biology"/>
+            <StringItem index="3" value="Calculus AB"/>
+            <StringItem index="4" value="Calculus BC"/>
+            <StringItem index="5" value="Chemistry"/>
+            <StringItem index="6" value="Chinese Language &amp; Culture"/>
+            <StringItem index="7" value="Comparative Government &amp; Politics"/>
+            <StringItem index="8" value="Computer Science A"/>
+            <StringItem index="9" value="Computer Science Principles"/>
+            <StringItem index="10" value="English Language and Composition"/>
+            <StringItem index="11" value="English Literature and Composition"/>
+            <StringItem index="12" value="Environmental Science"/>
+            <StringItem index="13" value="European History"/>
+            <StringItem index="14" value="French Language &amp; Culture"/>
+            <StringItem index="15" value="German Language &amp; Culture"/>
+            <StringItem index="16" value="Human Geography"/>
+            <StringItem index="17" value="Italian Language &amp; Culture"/>
+            <StringItem index="18" value="Japanese Language and Culture"/>
+            <StringItem index="19" value="Latin"/>
+            <StringItem index="20" value="Macroeconomics"/>
+            <StringItem index="21" value="Microeconomics"/>
+            <StringItem index="22" value="Music Theory"/>
+            <StringItem index="23" value="Physics 1: Algebra-Based"/>
+            <StringItem index="24" value="Physics 2: Algebra-Based"/>
+            <StringItem index="25" value="Physics C: Electricity &amp; Magnetism"/>
+            <StringItem index="26" value="Physics C: Mechanics"/>
+            <StringItem index="27" value="Psychology"/>
+            <StringItem index="28" value="Research"/>
+            <StringItem index="29" value="Seminar"/>
+            <StringItem index="30" value="Spanish Language &amp; Culture"/>
+            <StringItem index="31" value="Spanish Literature &amp; Culture"/>
+            <StringItem index="32" value="Statistics"/>
+            <StringItem index="33" value="Studio Art: 2-D Design"/>
+            <StringItem index="34" value="Studio Art: 3-D Design"/>
+            <StringItem index="35" value="Studio Art: Drawing"/>
+            <StringItem index="36" value="U.S. Government &amp; Politics"/>
+            <StringItem index="37" value="U.S. History"/>
+            <StringItem index="38" value="World History"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="FirstAPCourse_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="FirstAPCourse_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FirstAPCourse_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FirstAPCourse_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FirstAPCourse_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="FirstAPCourse_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="FirstAPCourse_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="FirstAPCourse_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="FirstAPCourse_ComboBoxMouseClicked"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="FirstAPCourse_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="FirstAPCourse_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FirstAPCourse_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="FirstAPCourse_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="SecondAPCourse_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="39">
+            <StringItem index="0" value="Choose a subject:"/>
+            <StringItem index="1" value="Art History"/>
+            <StringItem index="2" value="Biology"/>
+            <StringItem index="3" value="Calculus AB"/>
+            <StringItem index="4" value="Calculus BC"/>
+            <StringItem index="5" value="Chemistry"/>
+            <StringItem index="6" value="Chinese Language &amp; Culture"/>
+            <StringItem index="7" value="Comparative Government &amp; Politics"/>
+            <StringItem index="8" value="Computer Science A"/>
+            <StringItem index="9" value="Computer Science Principles"/>
+            <StringItem index="10" value="English Language and Composition"/>
+            <StringItem index="11" value="English Literature and Composition"/>
+            <StringItem index="12" value="Environmental Science"/>
+            <StringItem index="13" value="European History"/>
+            <StringItem index="14" value="French Language &amp; Culture"/>
+            <StringItem index="15" value="German Language &amp; Culture"/>
+            <StringItem index="16" value="Human Geography"/>
+            <StringItem index="17" value="Italian Language &amp; Culture"/>
+            <StringItem index="18" value="Japanese Language and Culture"/>
+            <StringItem index="19" value="Latin"/>
+            <StringItem index="20" value="Macroeconomics"/>
+            <StringItem index="21" value="Microeconomics"/>
+            <StringItem index="22" value="Music Theory"/>
+            <StringItem index="23" value="Physics 1: Algebra-Based"/>
+            <StringItem index="24" value="Physics 2: Algebra-Based"/>
+            <StringItem index="25" value="Physics C: Electricity &amp; Magnetism"/>
+            <StringItem index="26" value="Physics C: Mechanics"/>
+            <StringItem index="27" value="Psychology"/>
+            <StringItem index="28" value="Research"/>
+            <StringItem index="29" value="Seminar"/>
+            <StringItem index="30" value="Spanish Language &amp; Culture"/>
+            <StringItem index="31" value="Spanish Literature &amp; Culture"/>
+            <StringItem index="32" value="Statistics"/>
+            <StringItem index="33" value="Studio Art: 2-D Design"/>
+            <StringItem index="34" value="Studio Art: 3-D Design"/>
+            <StringItem index="35" value="Studio Art: Drawing"/>
+            <StringItem index="36" value="U.S. Government &amp; Politics"/>
+            <StringItem index="37" value="U.S. History"/>
+            <StringItem index="38" value="World History"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="SecondAPCourse_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="SecondAPCourse_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SecondAPCourse_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SecondAPCourse_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SecondAPCourse_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="SecondAPCourse_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="SecondAPCourse_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="SecondAPCourse_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="SecondAPCourse_ComboBoxMouseClicked"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="SecondAPCourse_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="SecondAPCourse_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SecondAPCourse_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="SecondAPCourse_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ThirdAPCourse_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="39">
+            <StringItem index="0" value="Choose a subject:"/>
+            <StringItem index="1" value="Art History"/>
+            <StringItem index="2" value="Biology"/>
+            <StringItem index="3" value="Calculus AB"/>
+            <StringItem index="4" value="Calculus BC"/>
+            <StringItem index="5" value="Chemistry"/>
+            <StringItem index="6" value="Chinese Language &amp; Culture"/>
+            <StringItem index="7" value="Comparative Government &amp; Politics"/>
+            <StringItem index="8" value="Computer Science A"/>
+            <StringItem index="9" value="Computer Science Principles"/>
+            <StringItem index="10" value="English Language and Composition"/>
+            <StringItem index="11" value="English Literature and Composition"/>
+            <StringItem index="12" value="Environmental Science"/>
+            <StringItem index="13" value="European History"/>
+            <StringItem index="14" value="French Language &amp; Culture"/>
+            <StringItem index="15" value="German Language &amp; Culture"/>
+            <StringItem index="16" value="Human Geography"/>
+            <StringItem index="17" value="Italian Language &amp; Culture"/>
+            <StringItem index="18" value="Japanese Language and Culture"/>
+            <StringItem index="19" value="Latin"/>
+            <StringItem index="20" value="Macroeconomics"/>
+            <StringItem index="21" value="Microeconomics"/>
+            <StringItem index="22" value="Music Theory"/>
+            <StringItem index="23" value="Physics 1: Algebra-Based"/>
+            <StringItem index="24" value="Physics 2: Algebra-Based"/>
+            <StringItem index="25" value="Physics C: Electricity &amp; Magnetism"/>
+            <StringItem index="26" value="Physics C: Mechanics"/>
+            <StringItem index="27" value="Psychology"/>
+            <StringItem index="28" value="Research"/>
+            <StringItem index="29" value="Seminar"/>
+            <StringItem index="30" value="Spanish Language &amp; Culture"/>
+            <StringItem index="31" value="Spanish Literature &amp; Culture"/>
+            <StringItem index="32" value="Statistics"/>
+            <StringItem index="33" value="Studio Art: 2-D Design"/>
+            <StringItem index="34" value="Studio Art: 3-D Design"/>
+            <StringItem index="35" value="Studio Art: Drawing"/>
+            <StringItem index="36" value="U.S. Government &amp; Politics"/>
+            <StringItem index="37" value="U.S. History"/>
+            <StringItem index="38" value="World History"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="ThirdAPCourse_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="ThirdAPCourse_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="ThirdAPCourse_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="ThirdAPCourse_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="ThirdAPCourse_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ThirdAPCourse_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="ThirdAPCourse_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="ThirdAPCourse_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ThirdAPCourse_ComboBoxMouseClicked"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="ThirdAPCourse_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="ThirdAPCourse_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ThirdAPCourse_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="ThirdAPCourse_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="FourthAPCourse_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="39">
+            <StringItem index="0" value="Choose a subject:"/>
+            <StringItem index="1" value="Art History"/>
+            <StringItem index="2" value="Biology"/>
+            <StringItem index="3" value="Calculus AB"/>
+            <StringItem index="4" value="Calculus BC"/>
+            <StringItem index="5" value="Chemistry"/>
+            <StringItem index="6" value="Chinese Language &amp; Culture"/>
+            <StringItem index="7" value="Comparative Government &amp; Politics"/>
+            <StringItem index="8" value="Computer Science A"/>
+            <StringItem index="9" value="Computer Science Principles"/>
+            <StringItem index="10" value="English Language and Composition"/>
+            <StringItem index="11" value="English Literature and Composition"/>
+            <StringItem index="12" value="Environmental Science"/>
+            <StringItem index="13" value="European History"/>
+            <StringItem index="14" value="French Language &amp; Culture"/>
+            <StringItem index="15" value="German Language &amp; Culture"/>
+            <StringItem index="16" value="Human Geography"/>
+            <StringItem index="17" value="Italian Language &amp; Culture"/>
+            <StringItem index="18" value="Japanese Language and Culture"/>
+            <StringItem index="19" value="Latin"/>
+            <StringItem index="20" value="Macroeconomics"/>
+            <StringItem index="21" value="Microeconomics"/>
+            <StringItem index="22" value="Music Theory"/>
+            <StringItem index="23" value="Physics 1: Algebra-Based"/>
+            <StringItem index="24" value="Physics 2: Algebra-Based"/>
+            <StringItem index="25" value="Physics C: Electricity &amp; Magnetism"/>
+            <StringItem index="26" value="Physics C: Mechanics"/>
+            <StringItem index="27" value="Psychology"/>
+            <StringItem index="28" value="Research"/>
+            <StringItem index="29" value="Seminar"/>
+            <StringItem index="30" value="Spanish Language &amp; Culture"/>
+            <StringItem index="31" value="Spanish Literature &amp; Culture"/>
+            <StringItem index="32" value="Statistics"/>
+            <StringItem index="33" value="Studio Art: 2-D Design"/>
+            <StringItem index="34" value="Studio Art: 3-D Design"/>
+            <StringItem index="35" value="Studio Art: Drawing"/>
+            <StringItem index="36" value="U.S. Government &amp; Politics"/>
+            <StringItem index="37" value="U.S. History"/>
+            <StringItem index="38" value="World History"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="FourthAPCourse_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="FourthAPCourse_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FourthAPCourse_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FourthAPCourse_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FourthAPCourse_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="FourthAPCourse_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="FourthAPCourse_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="FourthAPCourse_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TenthAPCourse_ComboBoxMouseClicked"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="FourthAPCourse_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="FourthAPCourse_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FourthAPCourse_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="FourthAPCourse_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="TenthAPCourse_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="39">
+            <StringItem index="0" value="Choose a subject:"/>
+            <StringItem index="1" value="Art History"/>
+            <StringItem index="2" value="Biology"/>
+            <StringItem index="3" value="Calculus AB"/>
+            <StringItem index="4" value="Calculus BC"/>
+            <StringItem index="5" value="Chemistry"/>
+            <StringItem index="6" value="Chinese Language &amp; Culture"/>
+            <StringItem index="7" value="Comparative Government &amp; Politics"/>
+            <StringItem index="8" value="Computer Science A"/>
+            <StringItem index="9" value="Computer Science Principles"/>
+            <StringItem index="10" value="English Language and Composition"/>
+            <StringItem index="11" value="English Literature and Composition"/>
+            <StringItem index="12" value="Environmental Science"/>
+            <StringItem index="13" value="European History"/>
+            <StringItem index="14" value="French Language &amp; Culture"/>
+            <StringItem index="15" value="German Language &amp; Culture"/>
+            <StringItem index="16" value="Human Geography"/>
+            <StringItem index="17" value="Italian Language &amp; Culture"/>
+            <StringItem index="18" value="Japanese Language and Culture"/>
+            <StringItem index="19" value="Latin"/>
+            <StringItem index="20" value="Macroeconomics"/>
+            <StringItem index="21" value="Microeconomics"/>
+            <StringItem index="22" value="Music Theory"/>
+            <StringItem index="23" value="Physics 1: Algebra-Based"/>
+            <StringItem index="24" value="Physics 2: Algebra-Based"/>
+            <StringItem index="25" value="Physics C: Electricity &amp; Magnetism"/>
+            <StringItem index="26" value="Physics C: Mechanics"/>
+            <StringItem index="27" value="Psychology"/>
+            <StringItem index="28" value="Research"/>
+            <StringItem index="29" value="Seminar"/>
+            <StringItem index="30" value="Spanish Language &amp; Culture"/>
+            <StringItem index="31" value="Spanish Literature &amp; Culture"/>
+            <StringItem index="32" value="Statistics"/>
+            <StringItem index="33" value="Studio Art: 2-D Design"/>
+            <StringItem index="34" value="Studio Art: 3-D Design"/>
+            <StringItem index="35" value="Studio Art: Drawing"/>
+            <StringItem index="36" value="U.S. Government &amp; Politics"/>
+            <StringItem index="37" value="U.S. History"/>
+            <StringItem index="38" value="World History"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="TenthAPCourse_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="TenthAPCourse_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="TenthAPCourse_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="TenthAPCourse_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="TenthAPCourse_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="TenthAPCourse_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="TenthAPCourse_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="TenthAPCourse_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TenthAPCourse_ComboBoxMouseClicked"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="TenthAPCourse_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="TenthAPCourse_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TenthAPCourse_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="TenthAPCourse_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="NinthAPCourse_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="39">
+            <StringItem index="0" value="Choose a subject:"/>
+            <StringItem index="1" value="Art History"/>
+            <StringItem index="2" value="Biology"/>
+            <StringItem index="3" value="Calculus AB"/>
+            <StringItem index="4" value="Calculus BC"/>
+            <StringItem index="5" value="Chemistry"/>
+            <StringItem index="6" value="Chinese Language &amp; Culture"/>
+            <StringItem index="7" value="Comparative Government &amp; Politics"/>
+            <StringItem index="8" value="Computer Science A"/>
+            <StringItem index="9" value="Computer Science Principles"/>
+            <StringItem index="10" value="English Language and Composition"/>
+            <StringItem index="11" value="English Literature and Composition"/>
+            <StringItem index="12" value="Environmental Science"/>
+            <StringItem index="13" value="European History"/>
+            <StringItem index="14" value="French Language &amp; Culture"/>
+            <StringItem index="15" value="German Language &amp; Culture"/>
+            <StringItem index="16" value="Human Geography"/>
+            <StringItem index="17" value="Italian Language &amp; Culture"/>
+            <StringItem index="18" value="Japanese Language and Culture"/>
+            <StringItem index="19" value="Latin"/>
+            <StringItem index="20" value="Macroeconomics"/>
+            <StringItem index="21" value="Microeconomics"/>
+            <StringItem index="22" value="Music Theory"/>
+            <StringItem index="23" value="Physics 1: Algebra-Based"/>
+            <StringItem index="24" value="Physics 2: Algebra-Based"/>
+            <StringItem index="25" value="Physics C: Electricity &amp; Magnetism"/>
+            <StringItem index="26" value="Physics C: Mechanics"/>
+            <StringItem index="27" value="Psychology"/>
+            <StringItem index="28" value="Research"/>
+            <StringItem index="29" value="Seminar"/>
+            <StringItem index="30" value="Spanish Language &amp; Culture"/>
+            <StringItem index="31" value="Spanish Literature &amp; Culture"/>
+            <StringItem index="32" value="Statistics"/>
+            <StringItem index="33" value="Studio Art: 2-D Design"/>
+            <StringItem index="34" value="Studio Art: 3-D Design"/>
+            <StringItem index="35" value="Studio Art: Drawing"/>
+            <StringItem index="36" value="U.S. Government &amp; Politics"/>
+            <StringItem index="37" value="U.S. History"/>
+            <StringItem index="38" value="World History"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="NinthAPCourse_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="NinthAPCourse_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="NinthAPCourse_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="NinthAPCourse_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="NinthAPCourse_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="NinthAPCourse_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="NinthAPCourse_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="NinthAPCourse_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TenthAPCourse_ComboBoxMouseClicked"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="NinthAPCourse_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="NinthAPCourse_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NinthAPCourse_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="NinthAPCourse_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="EigthAPCourse_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="39">
+            <StringItem index="0" value="Choose a subject:"/>
+            <StringItem index="1" value="Art History"/>
+            <StringItem index="2" value="Biology"/>
+            <StringItem index="3" value="Calculus AB"/>
+            <StringItem index="4" value="Calculus BC"/>
+            <StringItem index="5" value="Chemistry"/>
+            <StringItem index="6" value="Chinese Language &amp; Culture"/>
+            <StringItem index="7" value="Comparative Government &amp; Politics"/>
+            <StringItem index="8" value="Computer Science A"/>
+            <StringItem index="9" value="Computer Science Principles"/>
+            <StringItem index="10" value="English Language and Composition"/>
+            <StringItem index="11" value="English Literature and Composition"/>
+            <StringItem index="12" value="Environmental Science"/>
+            <StringItem index="13" value="European History"/>
+            <StringItem index="14" value="French Language &amp; Culture"/>
+            <StringItem index="15" value="German Language &amp; Culture"/>
+            <StringItem index="16" value="Human Geography"/>
+            <StringItem index="17" value="Italian Language &amp; Culture"/>
+            <StringItem index="18" value="Japanese Language and Culture"/>
+            <StringItem index="19" value="Latin"/>
+            <StringItem index="20" value="Macroeconomics"/>
+            <StringItem index="21" value="Microeconomics"/>
+            <StringItem index="22" value="Music Theory"/>
+            <StringItem index="23" value="Physics 1: Algebra-Based"/>
+            <StringItem index="24" value="Physics 2: Algebra-Based"/>
+            <StringItem index="25" value="Physics C: Electricity &amp; Magnetism"/>
+            <StringItem index="26" value="Physics C: Mechanics"/>
+            <StringItem index="27" value="Psychology"/>
+            <StringItem index="28" value="Research"/>
+            <StringItem index="29" value="Seminar"/>
+            <StringItem index="30" value="Spanish Language &amp; Culture"/>
+            <StringItem index="31" value="Spanish Literature &amp; Culture"/>
+            <StringItem index="32" value="Statistics"/>
+            <StringItem index="33" value="Studio Art: 2-D Design"/>
+            <StringItem index="34" value="Studio Art: 3-D Design"/>
+            <StringItem index="35" value="Studio Art: Drawing"/>
+            <StringItem index="36" value="U.S. Government &amp; Politics"/>
+            <StringItem index="37" value="U.S. History"/>
+            <StringItem index="38" value="World History"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="EigthAPCourse_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="EigthAPCourse_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="EigthAPCourse_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="EigthAPCourse_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="EigthAPCourse_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="EigthAPCourse_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="EigthAPCourse_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="EigthAPCourse_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TenthAPCourse_ComboBoxMouseClicked"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="EigthAPCourse_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="EigthAPCourse_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EigthAPCourse_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="EigthAPCourse_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="SeventhAPCourse_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="39">
+            <StringItem index="0" value="Choose a subject:"/>
+            <StringItem index="1" value="Art History"/>
+            <StringItem index="2" value="Biology"/>
+            <StringItem index="3" value="Calculus AB"/>
+            <StringItem index="4" value="Calculus BC"/>
+            <StringItem index="5" value="Chemistry"/>
+            <StringItem index="6" value="Chinese Language &amp; Culture"/>
+            <StringItem index="7" value="Comparative Government &amp; Politics"/>
+            <StringItem index="8" value="Computer Science A"/>
+            <StringItem index="9" value="Computer Science Principles"/>
+            <StringItem index="10" value="English Language and Composition"/>
+            <StringItem index="11" value="English Literature and Composition"/>
+            <StringItem index="12" value="Environmental Science"/>
+            <StringItem index="13" value="European History"/>
+            <StringItem index="14" value="French Language &amp; Culture"/>
+            <StringItem index="15" value="German Language &amp; Culture"/>
+            <StringItem index="16" value="Human Geography"/>
+            <StringItem index="17" value="Italian Language &amp; Culture"/>
+            <StringItem index="18" value="Japanese Language and Culture"/>
+            <StringItem index="19" value="Latin"/>
+            <StringItem index="20" value="Macroeconomics"/>
+            <StringItem index="21" value="Microeconomics"/>
+            <StringItem index="22" value="Music Theory"/>
+            <StringItem index="23" value="Physics 1: Algebra-Based"/>
+            <StringItem index="24" value="Physics 2: Algebra-Based"/>
+            <StringItem index="25" value="Physics C: Electricity &amp; Magnetism"/>
+            <StringItem index="26" value="Physics C: Mechanics"/>
+            <StringItem index="27" value="Psychology"/>
+            <StringItem index="28" value="Research"/>
+            <StringItem index="29" value="Seminar"/>
+            <StringItem index="30" value="Spanish Language &amp; Culture"/>
+            <StringItem index="31" value="Spanish Literature &amp; Culture"/>
+            <StringItem index="32" value="Statistics"/>
+            <StringItem index="33" value="Studio Art: 2-D Design"/>
+            <StringItem index="34" value="Studio Art: 3-D Design"/>
+            <StringItem index="35" value="Studio Art: Drawing"/>
+            <StringItem index="36" value="U.S. Government &amp; Politics"/>
+            <StringItem index="37" value="U.S. History"/>
+            <StringItem index="38" value="World History"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="SeventhAPCourse_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="SeventhAPCourse_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SeventhAPCourse_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SeventhAPCourse_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SeventhAPCourse_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="SeventhAPCourse_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="SeventhAPCourse_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="SeventhAPCourse_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TenthAPCourse_ComboBoxMouseClicked"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="SeventhAPCourse_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="SeventhAPCourse_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SeventhAPCourse_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="SeventhAPCourse_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="SixthAPCourse_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="39">
+            <StringItem index="0" value="Choose a subject:"/>
+            <StringItem index="1" value="Art History"/>
+            <StringItem index="2" value="Biology"/>
+            <StringItem index="3" value="Calculus AB"/>
+            <StringItem index="4" value="Calculus BC"/>
+            <StringItem index="5" value="Chemistry"/>
+            <StringItem index="6" value="Chinese Language &amp; Culture"/>
+            <StringItem index="7" value="Comparative Government &amp; Politics"/>
+            <StringItem index="8" value="Computer Science A"/>
+            <StringItem index="9" value="Computer Science Principles"/>
+            <StringItem index="10" value="English Language and Composition"/>
+            <StringItem index="11" value="English Literature and Composition"/>
+            <StringItem index="12" value="Environmental Science"/>
+            <StringItem index="13" value="European History"/>
+            <StringItem index="14" value="French Language &amp; Culture"/>
+            <StringItem index="15" value="German Language &amp; Culture"/>
+            <StringItem index="16" value="Human Geography"/>
+            <StringItem index="17" value="Italian Language &amp; Culture"/>
+            <StringItem index="18" value="Japanese Language and Culture"/>
+            <StringItem index="19" value="Latin"/>
+            <StringItem index="20" value="Macroeconomics"/>
+            <StringItem index="21" value="Microeconomics"/>
+            <StringItem index="22" value="Music Theory"/>
+            <StringItem index="23" value="Physics 1: Algebra-Based"/>
+            <StringItem index="24" value="Physics 2: Algebra-Based"/>
+            <StringItem index="25" value="Physics C: Electricity &amp; Magnetism"/>
+            <StringItem index="26" value="Physics C: Mechanics"/>
+            <StringItem index="27" value="Psychology"/>
+            <StringItem index="28" value="Research"/>
+            <StringItem index="29" value="Seminar"/>
+            <StringItem index="30" value="Spanish Language &amp; Culture"/>
+            <StringItem index="31" value="Spanish Literature &amp; Culture"/>
+            <StringItem index="32" value="Statistics"/>
+            <StringItem index="33" value="Studio Art: 2-D Design"/>
+            <StringItem index="34" value="Studio Art: 3-D Design"/>
+            <StringItem index="35" value="Studio Art: Drawing"/>
+            <StringItem index="36" value="U.S. Government &amp; Politics"/>
+            <StringItem index="37" value="U.S. History"/>
+            <StringItem index="38" value="World History"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="SixthAPCourse_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="SixthAPCourse_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SixthAPCourse_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SixthAPCourse_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SixthAPCourse_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="SixthAPCourse_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="SixthAPCourse_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="SixthAPCourse_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TenthAPCourse_ComboBoxMouseClicked"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="SixthAPCourse_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="SixthAPCourse_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SixthAPCourse_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="SixthAPCourse_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="FifthAPCourse_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="39">
+            <StringItem index="0" value="Choose a subject:"/>
+            <StringItem index="1" value="Art History"/>
+            <StringItem index="2" value="Biology"/>
+            <StringItem index="3" value="Calculus AB"/>
+            <StringItem index="4" value="Calculus BC"/>
+            <StringItem index="5" value="Chemistry"/>
+            <StringItem index="6" value="Chinese Language &amp; Culture"/>
+            <StringItem index="7" value="Comparative Government &amp; Politics"/>
+            <StringItem index="8" value="Computer Science A"/>
+            <StringItem index="9" value="Computer Science Principles"/>
+            <StringItem index="10" value="English Language and Composition"/>
+            <StringItem index="11" value="English Literature and Composition"/>
+            <StringItem index="12" value="Environmental Science"/>
+            <StringItem index="13" value="European History"/>
+            <StringItem index="14" value="French Language &amp; Culture"/>
+            <StringItem index="15" value="German Language &amp; Culture"/>
+            <StringItem index="16" value="Human Geography"/>
+            <StringItem index="17" value="Italian Language &amp; Culture"/>
+            <StringItem index="18" value="Japanese Language and Culture"/>
+            <StringItem index="19" value="Latin"/>
+            <StringItem index="20" value="Macroeconomics"/>
+            <StringItem index="21" value="Microeconomics"/>
+            <StringItem index="22" value="Music Theory"/>
+            <StringItem index="23" value="Physics 1: Algebra-Based"/>
+            <StringItem index="24" value="Physics 2: Algebra-Based"/>
+            <StringItem index="25" value="Physics C: Electricity &amp; Magnetism"/>
+            <StringItem index="26" value="Physics C: Mechanics"/>
+            <StringItem index="27" value="Psychology"/>
+            <StringItem index="28" value="Research"/>
+            <StringItem index="29" value="Seminar"/>
+            <StringItem index="30" value="Spanish Language &amp; Culture"/>
+            <StringItem index="31" value="Spanish Literature &amp; Culture"/>
+            <StringItem index="32" value="Statistics"/>
+            <StringItem index="33" value="Studio Art: 2-D Design"/>
+            <StringItem index="34" value="Studio Art: 3-D Design"/>
+            <StringItem index="35" value="Studio Art: Drawing"/>
+            <StringItem index="36" value="U.S. Government &amp; Politics"/>
+            <StringItem index="37" value="U.S. History"/>
+            <StringItem index="38" value="World History"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="FifthAPCourse_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="FifthAPCourse_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FifthAPCourse_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FifthAPCourse_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FifthAPCourse_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="FifthAPCourse_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="FifthAPCourse_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="FifthAPCourse_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TenthAPCourse_ComboBoxMouseClicked"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="FifthAPCourse_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="FifthAPCourse_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FifthAPCourse_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="FifthAPCourse_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Heading1_Label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway ExtraBold" size="14" style="3"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e8" green="76" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Please enter the AP Course and Mark(s):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="FirstAPCourseMark_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="FirstAPCourseMark_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="FirstAPCourseMark_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FirstAPCourseMark_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FirstAPCourseMark_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FirstAPCourseMark_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="FirstAPCourseMark_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="FirstAPCourseMark_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="FirstAPCourseMark_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="FirstAPCourseMark_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="FirstAPCourseMark_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FirstAPCourseMark_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="FirstAPCourseMark_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="SecondAPCourseMark_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="SecondAPCourseMark_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="SecondAPCourseMark_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SecondAPCourseMark_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SecondAPCourseMark_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SecondAPCourseMark_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="SecondAPCourseMark_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="SecondAPCourseMark_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="SecondAPCourseMark_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="SecondAPCourseMark_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="SecondAPCourseMark_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SecondAPCourseMark_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="SecondAPCourseMark_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ThirdAPCourseMark_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="ThirdAPCourseMark_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="ThirdAPCourseMark_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="ThirdAPCourseMark_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="ThirdAPCourseMark_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="ThirdAPCourseMark_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ThirdAPCourseMark_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="ThirdAPCourseMark_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="ThirdAPCourseMark_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="ThirdAPCourseMark_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="ThirdAPCourseMark_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ThirdAPCourseMark_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="ThirdAPCourseMark_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="FifthAPCourseMark_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="FifthAPCourseMark_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="FifthAPCourseMark_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FifthAPCourseMark_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FifthAPCourseMark_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FifthAPCourseMark_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="FifthAPCourseMark_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="FifthAPCourseMark_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="FifthAPCourseMark_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="FifthAPCourseMark_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="FifthAPCourseMark_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FifthAPCourseMark_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="FifthAPCourseMark_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="FourthAPCourseMark_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="FourthAPCourseMark_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="FourthAPCourseMark_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FourthAPCourseMark_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FourthAPCourseMark_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FourthAPCourseMark_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="FourthAPCourseMark_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="FourthAPCourseMark_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="FourthAPCourseMark_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="FourthAPCourseMark_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="FourthAPCourseMark_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FourthAPCourseMark_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="FourthAPCourseMark_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="SixthAPCourseMark_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="SixthAPCourseMark_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="SixthAPCourseMark_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SixthAPCourseMark_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SixthAPCourseMark_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SixthAPCourseMark_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="SixthAPCourseMark_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="SixthAPCourseMark_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="SixthAPCourseMark_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="SixthAPCourseMark_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="SixthAPCourseMark_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SixthAPCourseMark_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="SixthAPCourseMark_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="SeventhAPCourseMark_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="SeventhAPCourseMark_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="SeventhAPCourseMark_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SeventhAPCourseMark_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SeventhAPCourseMark_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="SeventhAPCourseMark_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="SeventhAPCourseMark_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="SeventhAPCourseMark_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="SeventhAPCourseMark_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="SeventhAPCourseMark_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="SeventhAPCourseMark_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SeventhAPCourseMark_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="SeventhAPCourseMark_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="EigthAPCourseMark_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="EigthAPCourseMark_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="EigthAPCourseMark_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="EigthAPCourseMark_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="EigthAPCourseMark_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="EigthAPCourseMark_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="EigthAPCourseMark_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="EigthAPCourseMark_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="EigthAPCourseMark_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="EigthAPCourseMark_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="EigthAPCourseMark_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EigthAPCourseMark_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="EigthAPCourseMark_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="NinthAPCourseMark_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="NinthAPCourseMark_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="NinthAPCourseMark_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="NinthAPCourseMark_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="NinthAPCourseMark_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="NinthAPCourseMark_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="NinthAPCourseMark_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="NinthAPCourseMark_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="NinthAPCourseMark_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="NinthAPCourseMark_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="NinthAPCourseMark_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NinthAPCourseMark_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="NinthAPCourseMark_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="TenthAPCourseMark_ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="14" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="TenthAPCourseMark_ComboBoxComponentAdded"/>
+        <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="TenthAPCourseMark_ComboBoxComponentRemoved"/>
+        <EventHandler event="ancestorMoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="TenthAPCourseMark_ComboBoxAncestorMoved"/>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="TenthAPCourseMark_ComboBoxAncestorAdded"/>
+        <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="TenthAPCourseMark_ComboBoxAncestorRemoved"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="TenthAPCourseMark_ComboBoxFocusGained"/>
+        <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="TenthAPCourseMark_ComboBoxPopupMenuWillBecomeInvisible"/>
+        <EventHandler event="popupMenuWillBecomeVisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="TenthAPCourseMark_ComboBoxPopupMenuWillBecomeVisible"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="TenthAPCourseMark_ComboBoxComponentHidden"/>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="TenthAPCourseMark_ComboBoxComponentShown"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TenthAPCourseMark_ComboBoxActionPerformed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="TenthAPCourseMark_ComboBoxPropertyChange"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="SaveAPScores_Button">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="12" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="SaveAPScores_ButtonMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SaveAPScores_ButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="ResetAPScores_Button">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Raleway SemiBold" size="12" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Reset"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ResetAPScores_ButtonMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ResetAPScores_ButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
